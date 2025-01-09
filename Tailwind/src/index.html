@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Layout</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header class=" flex justify-between items-center px-12 py-8 bg-emerald-200">
+            <h1 class="font-bold text-3xl">
+                MAGNATE
+            </h1>
+            <ul class="flex space-x-6">
+                <li><a href="" class="text-black px-2 mx-1">Home</a></li>
+                <li><a href="" class="text-black px-2 mx-1">About</a></li>
+                <li><a href="" class="text-black px-2 mx-1">Gallery</a></li>
+                <li><a href="" class="text-black px-2 mx-1">Blog</a></li>
+                <li><a href="" class="text-black px-2 mx-1">Contact Us</a></li>
+                <li>
+                    <a href=""
+                        class="text-black rounded bg-emerald-200 px-8 py-2 mx-1 hover:bg-black hover:text-white">Login</a>
+                </li>
+            </ul>
+        </header>
+        <section id="hero" class="bg-emerald-700  py-20 px-12 flex items-center">
+            <div class="container mx-auto flex items-center justify-center ">
+                <div class="text-center w-2/4">
+                    <h1 class="text-4xl font-bold">Magnate</h1>
+                    <p class="mt-4">Magnate Cafe would have different meanings to two groups of people. If you think it
+                        is a spacy local cafe with good coffee and bakeries, you belong to a regular group.
+                        If you are a member of ARMY, yes, this is a holy place you have to stop by when you visit Busan.
+                        This place has got its fame because a BTS member, Jimin’s dad owns Magnate Cafe.
+                        But, it would not be fair to say the cafe gets popular solely thanks to Jimin because it serves
+                        up good coffee and delicious pastries. </p>
+                    <button class="text-white rounded bg-emerald-700 px-8 py-2 mx-1 font-bold hover:bg-white hover:text-black">Contact
+                        Us</button>
+                </div>
+            </div>
+            <div class="md:w-2/4">
+                <img src="images/magnate_4.jpg" alt="Hotel" class="rounded">
+            </div>
+        </section>
+
+
+        <section id="Menu" class="px-12 py-8 w-full">
+            <h2 class="font-bold mb-8 text-3xl text-center">OUR MENU</h2>
+            <div class="menu-wrapper flex flex-wrap justify-between gap-2"></div>
+
+            <div class="card max-[500px]:w-full min-[900px]:w-[30%] md-8 text-center">
+                <img src="images/pizza.jpg" alt="" class="h-48 w-full rounded-t-lg">
+                <h4>Pizza</h4>
+                <p><i class="fa-solid fa-indian-rupee-sign"></i>290</p>
+                <a href="">Add To Cart</a>
+            </div>
+            <div class="card max-[500px]:w-full min-[900px]:w-[30%] md-8 text-center">
+                <img src="images/sandwich.jpg" alt="" class="h-48 w-full rounded-t-lg">
+                <h4>Sandwich</h4>
+                <p><i class="fa-solid fa-indian-rupee-sign"></i>150</p>
+                <a href="">Add To Cart</a>
+            </div>
+
+            <div class="card max-[500px]:w-full min-[900px]:w-[30%] md-8 text center">
+                <img src="images/samosa.jpg" alt="" class="h-48 w-full rounded-t-lg">
+                <h4>samosa</h4>
+                <p><i class="fa-solid fa-indian-rupee-sign"></i>200</p>
+                <a href="">Add To Cart</a>
+            </div>
+
+            <div class="card max-[500px]:w-full min-[900px]:w-[30%] md-8 text center">
+                <img src="images/burger.webp" alt="" class="h-48 w-full rounded-t-lg">
+                <h4>Burger</h4>
+                <p><i class="fa-solid fa-indian-rupee-sign"></i>290</p>
+                <a href="">Add To Cart</a>
+            </div>
+
+            <div class="card max-[500px]:w-full min-[900px]:w-[30%] md-8 text center">
+                <img src="images/chaumin.webp" alt="" class="h-48 w-full rounded-t-lg">
+                <h4>Chowmin</h4>
+                <p><i class="fa-solid fa-indian-rupee-sign"></i>290</p>
+                <a href="">Add To Cart</a>
+            </div>
+
+            <div class="card max-[500px]:w-full min-[900px]:w-[30%] md-8 text center">
+                <img src="images/pao_bhaji.jpg" alt="" class="h-48 w-full rounded-t-lg">
+                <h4>Chowmin</h4>
+                <p><i class="fa-solid fa-indian-rupee-sign"></i>290</p>
+                <a href="">Add To Cart</a>
+            </div>
+
+            <section id="hero" class="bg-emerald-950 text-white py-20 px-12 flex items-center ">
+                <div class="container mx-auto flex items-center justify-center">
+                    <div class="text-center w-2/4">
+                        <h1 class="text-4xl font-bold">Location</h1>
+                        <p class="mt-4">135, Jinnam-ro, Nam-gu, Busan, South Korea</p>
+                        <button
+                            class="mt-6 bg-white hover:text-white hover:bg-black text-black px-6 py-3 rounded ">Tracker
+                        </button>
+                    </div>
+                </div>
+                <div class="md:w-2/4">
+                    <img src="images/E8A17B31-76C7-43D1-A2E3-2890AEB05F87.JPEG" alt="Location" class="rounded">
+                </div>
+            </section>
+    </div>
+</body>
+
+</html>

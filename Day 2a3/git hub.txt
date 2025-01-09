@@ -1,0 +1,59 @@
+C:\Users\PHED\OneDrive\Desktop\working\workshop>git init
+Initialized empty Git repository in C:/Users/PHED/OneDrive/Desktop/working/workshop/.git/
+
+C:\Users\PHED\OneDrive\Desktop\working\workshop>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Assignment/
+        Day 1/
+        Day 2/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\PHED\OneDrive\Desktop\working\workshop>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+
+C:\Users\PHED\OneDrive\Desktop\working\workshop>git add .
+
+C:\Users\PHED\OneDrive\Desktop\working\workshop>git commit -m "first commit"
+[master (root-commit) 29910d4] first commit
+ 16 files changed, 406 insertions(+)
+ create mode 100644 Assignment/assig1.css
+ create mode 100644 Assignment/assig1.html
+ create mode 100644 Assignment/assig2.css
+ create mode 100644 Assignment/assig2.html
+ create mode 100644 Assignment/c11fc55228ea94733a6bdb9bb8d032c3.jpg
+ create mode 100644 Assignment/index (2).html
+ create mode 100644 Day 1/BTS.jpg
+ create mode 100644 Day 1/Cha Eunwoo.jpg
+ create mode 100644 Day 1/HItman.jpg
+ create mode 100644 Day 1/Hardik Pandya.jpg
+ create mode 100644 Day 1/Siddharth Malhotra.jpg
+ create mode 100644 Day 1/Sushant Singh Rajput.jpg
+ create mode 100644 Day 1/dropdown.css
+ create mode 100644 Day 1/imagepage.css
+ create mode 100644 Day 1/index.html
+ create mode 100644 Day 2/Screenshot 2025-01-08 104946.png
+
+C:\Users\PHED\OneDrive\Desktop\working\workshop>git branch -M main
+
+C:\Users\PHED\OneDrive\Desktop\working\workshop>git remote add origin https://github.com/sofiavarma17/Workshop.git
+
+C:\Users\PHED\OneDrive\Desktop\working\workshop>git branch -M main
+
+C:\Users\PHED\OneDrive\Desktop\working\workshop>git push -u origin main
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 560.49 KiB | 10.38 MiB/s, done.
+Total 21 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sofiavarma17/Workshop.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
